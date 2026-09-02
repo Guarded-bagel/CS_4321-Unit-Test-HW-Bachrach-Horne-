@@ -1,4 +1,4 @@
-package prob1;
+package org.dgib;
 
 public class Employee {
 	private double[] hours = new double[7];
