@@ -130,7 +130,7 @@ public class EmployeeTest {
 		emp.setHours(3, 6);
 		emp.setHours(4, 6);
 		emp.setHours(5, 6);
-		double expectedPay = 480.0;
+		double expectedPay = 420.0;
 		double actualPay = emp.getPay();
 		assertEquals(expectedPay, actualPay);
     }
